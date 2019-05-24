@@ -5,14 +5,15 @@ body{
     background-color:white;
     min-height: 20%;
     max-width: 100%;
-    border:gray 2px solid;
     overflow: auto;
+    background: -webkit-linear-gradient(left, rgb(230, 213, 213) , rgb(144, 144, 206)); 
    
 }
 
 #pic{
-    border-radius: 10%;
+    border-radius: 20%;
   float: left;
+  padding: 20px;
 
     
 
@@ -25,14 +26,14 @@ body{
 
 }
 .entradas{
-    background-color: rgb(211, 209, 209);
+    background: rgba(183,222,237,1);
     width: 90%;
     height: 200px;
-    border:gray 2px solid;
+    border:gray 1px solid;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    background: -webkit-linear-gradient(left, rgb(230, 213, 213) , rgb(144, 144, 206)); 
+    
 
 }
 h2{
@@ -55,3 +56,38 @@ h1{
     
 }
 
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color:lightblue;
+    border: 2px solid gray;
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 40px;
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.login{
+    background:lightgray;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    margin-left: 45%;
+    top: 185px;
+    height: 250px;
+}
+
+
+
+   
