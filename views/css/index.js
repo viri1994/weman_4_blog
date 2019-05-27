@@ -42,6 +42,10 @@ function leerPublicaciones() {
 
 }
 
+function doPrueba(){
+	var formulario= document.getElementById('frmlogin');
+	peticionAsync('POST', '/login', 'usr='+ formulario.usr.value+ '&pwd='+ formulario.onpointerdown.value);
+}
 function dibujaPublicaciones(publis) {
 	let contenedor = document.getElementById('publicaciones');
 	for (let i = 0; i < publis.length; i++) {
